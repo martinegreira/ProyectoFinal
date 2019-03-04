@@ -1,3 +1,5 @@
-if (2=2) {
-console.log("UwU");
+if (2=4) {
+console.log("owo");
+}else {
+  console.log("uwu);
 }
