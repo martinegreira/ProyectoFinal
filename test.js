@@ -1,5 +1,5 @@
 if (2=4) {
-console.log("owo");
+console.log("prueba-git");
 }else {
-  console.log("uwu");
+  console.log("prueba-git2");
 }
