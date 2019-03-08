@@ -27,6 +27,9 @@ ab = cd = ff = 3 + 5;
 
 //2 ** 2 // 4 - Esto hace que el numero principal se multiplique por el segundo numero 
 
+
+
+
 4 ** (1/2) // Raices cuadradas
 
 //Math.sqrt(4) // tiene menos rendimiento pero sirve para que tus compañeros comprendan mejor el codigo
@@ -37,3 +40,17 @@ ab = cd = ff = 3 + 5;
 //Si asignas una varible que se ha operado con ella esta retornara a su valor principal dentro de esa varible, si le ponemos un ++ o -- delante del valor esa varible guardara con 1
 
 //Las operaciones no utilizan su valor hasta que pasan su linea
+
+
+//* COMAS *//
+
+//La coma hace que se desenchen todo lo anterior
+
+//* Comparaciones   *//
+
+if (2 === 2) { //Siempre dara un resultado booleano
+
+}
+//Como decir quees distinto != se le puede poner hasta 2
+//Comparaciones de menor o mayor que < y >
+// =< menos o igual => mayor o igual
