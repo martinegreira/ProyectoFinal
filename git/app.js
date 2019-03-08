@@ -5,8 +5,8 @@
 "use strict"; //uso stricto del programa, recomendable poner siempre
 
 console.log("Bienvenido");
-alert("Hola me llamo ruben");
-alert("Hola soy rodolfo") //alerta 
+alert("Desactive Adblock");
+alert("Eres admin?") //alerta 
 
 //Comentario de una linea
 /**

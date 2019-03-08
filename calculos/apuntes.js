@@ -54,3 +54,11 @@ if (2 === 2) { //Siempre dara un resultado booleano
 //Como decir quees distinto != se le puede poner hasta 2
 //Comparaciones de menor o mayor que < y >
 // =< menos o igual => mayor o igual
+// control + d para modificar el mismo texto a la vez
+// Una opcion buena para checkear los numeros es IsFinite
+
+//CODICIONES
+
+// if ();
+//else if ();
+//else;
