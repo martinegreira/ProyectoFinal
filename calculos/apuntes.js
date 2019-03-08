@@ -61,4 +61,7 @@ if (2 === 2) { //Siempre dara un resultado booleano
 
 // if ();
 //else if ();
-//else;
+//else;t
+//true ? alert "esto es true" : alert "esto sigue siendo true"
+//Diferentes roles quedan mas privilegios
+//return retonar algo
