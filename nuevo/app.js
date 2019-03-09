@@ -106,3 +106,26 @@
 
 //And &&
 // Si hay un false ya no se cumple
+
+// && tiene mas valor que ||
+
+// ! 1 sirve para cambiarlo a su contraparte 2 para volver 
+
+//cuando flag sea true el bucle while se dentendra, esto debe estar sujeto a algunas condiciones
+
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+
+// let array = [
+//     {name:"Manolo", isAdmin:true},
+//     {name:"Pepe", isAdmin:false},
+// ]
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i].isAdmin;
+//     if (element == false) {
+//         array[i].name = "default"
+//     }
+
+//     console.log(array[i].name) 
+    
+// }
