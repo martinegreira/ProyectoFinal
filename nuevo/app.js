@@ -60,31 +60,49 @@
 
 //If2
 
-let numero = prompt("Cuantos años tienes??");
-let type = "";
-let yearsProgramming = 0;
+// let numero = prompt("Cuantos años tienes??");
+// let type = "";
+// let yearsProgramming = 0;
 
-if (numero <= 28 && numero >= 18) {
-  type = "Junior";
-  yearsProgramming = prompt("Cuantos años llevas programando");
-} else if (numero > 28) {
-  type = "Senior";
-  yearsProgramming = prompt("Cuantos años llevas programando");
-} else {
-  alert("Fatal error");
-}
+// if (numero <= 28 && numero >= 18) {
+//   type = "Junior";
+//   yearsProgramming = prompt("Cuantos años llevas programando");
+// } else if (numero > 28) {
+//   type = "Senior";
+//   yearsProgramming = prompt("Cuantos años llevas programando");
+// } else {
+//   alert("Fatal error");
+// }
 
-alert(`Eres ${type} por llevar ${yearsProgramming}`);
-
-
-
-
-
-
-
-
+// alert(`Eres ${type} por llevar ${yearsProgramming}`);
 
 // if (Jun == "Junior" || Se == "Senior" ) ; {
 //  let programa = prompt ("Cuantos años llevas programando")
-
 // }
+
+//Calculo
+
+// let numero1 = +prompt("Elige el primer numero para calcular");
+// let numero2 = +prompt("Elige el segundo numero para calcular");
+// let operador = prompt("Elige un operador");
+
+// let nume1 = isFinite(numero1);
+// let nume2 = isFinite(numero2);
+// if (nume1 && nume2) {
+//   if (operador == "suma") {
+//     console.log(numero1 + numero2);
+//   } else if (operador == "restar") {
+//     console.log(numero1 - numero2);
+//   } else if (operador == "multiplicar") {
+//     console.log(numero1 * numero2);
+//   } else if (operador == "restar") {
+//     console.log(numero1 / numero2);
+//   }
+// }
+
+//Operadores logicos
+
+// Or || Este te devuelve true si se cumple solo cualquier condicion
+
+//And &&
+// Si hay un false ya no se cumple
