@@ -109,7 +109,7 @@
 
 // && tiene mas valor que ||
 
-// ! 1 sirve para cambiarlo a su contraparte 2 para volver 
+// ! 1 sirve para cambiarlo a su contraparte 2 para volver
 
 //cuando flag sea true el bucle while se dentendra, esto debe estar sujeto a algunas condiciones
 
@@ -126,6 +126,40 @@
 //         array[i].name = "default"
 //     }
 
-//     console.log(array[i].name) 
-    
+//     console.log(array[i].name)
+
 // }
+
+// Array = [
+//     {name=barco1},
+//     {name=barco2},
+//     {name=barco3},
+//     {name=barco4},
+//     {name=barco5},
+//     {name=barco6},
+
+// ];
+
+primero: for (let i = 0; i < 3; i++) {
+  for (let x = 0; x < 3; x++) {
+    let input = prompt(`las coordenadas son ${i},${x}`);
+    if (input === "" ) {
+        break primero;
+    }
+    // if (y == 0%) {
+    //     alert("agua")
+    // }
+    // else if (y == 1%) {
+    //     alert("acertado")
+    // }
+    // else if (x == 1%) {
+    //     alert("acertado")
+    // }
+    // else if (x == 0%) {
+    //     alert("agua")
+    // }
+    // if (x == 1% || y == "0%") {
+    //     
+    // }
+  }
+}
