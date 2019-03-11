@@ -145,21 +145,6 @@ primero: for (let i = 0; i < 3; i++) {
     let input = prompt(`las coordenadas son ${i},${x}`);
     if (input === "" ) {
         break primero;
-    }
-    // if (y == 0%) {
-    //     alert("agua")
-    // }
-    // else if (y == 1%) {
-    //     alert("acertado")
-    // }
-    // else if (x == 1%) {
-    //     alert("acertado")
-    // }
-    // else if (x == 0%) {
-    //     alert("agua")
-    // }
-    // if (x == 1% || y == "0%") {
-    //     
-    // }
+    }  
   }
 }
