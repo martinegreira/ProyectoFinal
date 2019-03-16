@@ -60,24 +60,21 @@
 
 //logging se guardan en las elasticsearch,kibana capacidad : full search text
 
-//Control + F12 te enseña los errores 
+//Control + F12 te enseña los errores
 
 //Funcion que diga hola cuando pasen 3 segundos.
 
 ///funcion arrow // timeout va en milisegundos
 
-
-
-// setTimeout(() => {  
+// setTimeout(() => {
 //     console.log("Hola")
 //     return
-    
+
 // }, timeout = 3000);
 
 // setInterval(() => {
 //     console.log("Hola")
 // }, );
-
 
 //this da un salto hacia atras con funciones normales y con una funcion anidada en arrow 2 saltos
 
@@ -94,7 +91,77 @@
 
 // console.log(Math.random());
 
+//of es para meterse en un array
+
+//Funcion que borre en un array los nombres pares
+
+// let names = ["Pepe","Rafa", "Tito","Maria"];
+// function pares (){
+//     let numero =
+//     for(let i of names){
+//         delete names[1]
+//         delete names[3]
+//     }
+//     console.log(names);
+//     debugger;
+// }
+// pares()
+
+//Funcionales
+//map se usa para modificar cosas de un array
+//filter elimina cosas del array
+// let names2 = names.map(name=>{
+//     return name + "2"
+// });
+// console.log(names2)
+
+//
+
+// let people = [
+//   {
+//     name: "Pepe",
+//     location: "Coruña",
+//     type: "user",
+// },
+// {
+//     name: "Marcos",
+//     location: "Madrid",
+//     type: "user",
+// },
+// {
+//     name: "Pedro",
+//     location: "Coruña",
+//     type: "user",
+// },
+// {
+
+//     name: "Marcos",
+//     location: "Coruña",
+//     type: "user"
+//   }
+// ];
+// function makeAdmin(users){
+// let newarr = users.map((user,index) => {
+// if(index % 2 === 0)
+// user.type = "admin"
+// return user ;
+// })
+// return newarr
+// }
+// let res = makeAdmin(people)
+// console.log(res)
 
 
+// Destructuring
 
+//Todo se puede desestructurar 
+
+// let array = ["Abel","Pepe"]
+
+// let [name1,name2] = array
+
+// console.log(name2);
+
+
+//JSON, JS T DATE DOMINGO
 
