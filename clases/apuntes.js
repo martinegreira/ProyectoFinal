@@ -139,3 +139,6 @@ Delfin1 = new Delfin("Paco", "3 m", "5 kg", "violeta");
 Delfin2 = new Delfin("Pepa", "6 m", "7 kg", "violeta");
 Delfin.saltar()
 Delfin.reproduccion(Delfin1,Delfin2)
+
+
+//set y get es lo mismo y ser usa para llamar una funcion privada no se usan//
