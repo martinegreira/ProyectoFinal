@@ -1,0 +1,40 @@
+<div class="login">
+    <form class="form-signin">
+        <div class="text-center">
+            <img class="mb-4" src="http://noticias.universia.es/net/images/tiempo-libre/v/vi/vid/videojuegos.png" alt=""
+                width="300" height="180">
+            <ul id="list-login">
+                <li class="nav-item">
+                    <a class="nav-link" *ngIf="isRegisterFormVisible">
+                        <h1>Login</h1>
+
+                    </a>
+                    <a class="nav-link" *ngIf="!isRegisterFormVisible">
+                        <h1>Register</h1>
+
+                    </a>
+                </li>
+            </ul>
+            <label for="inputEmail" class="sr-only">Email</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div class="checkbox mb-3">
+            </div>
+            <div *ngIf="!isRegisterFormVisible">
+                <label for="inputPassword" class="sr-only">Confirm Password</label>
+                <input type="password" id="inputConfirmPassword" class="form-control" placeholder=" Confirm Password"
+                    required>
+
+
+            </div>
+            <div class="bt-login">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            </div>
+            <div class="bt-register">
+                <button class="btn btn-lg btn-secondary p-0.5 m-5" [class.active]="isRegisterFormVisible"
+                    (click)="toggleForm(false)" type="button">Registrate</button>
+            </div>
+        </div>
+    </form>
+</div>
