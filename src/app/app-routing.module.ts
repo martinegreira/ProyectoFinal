@@ -13,9 +13,11 @@ const routes: Routes = [
   {
     path: 'interface',
     loadChildren: './features/interface/interface.module#InterfaceModule'
+  }, {
+    path: 'addgame',
+    loadChildren: './features/interface/interface-add/interface-add.module#InterfaceAddModule'
   },
 ]
-
   @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

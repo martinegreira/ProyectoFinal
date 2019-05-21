@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { InterfacePrincipal} from './interface-principal/interface-principal.component';
 
+
 const routes: Routes = [
   {
     path: '',
     component: InterfacePrincipal
-  }
+  },
+
 ];
 
 @NgModule({
